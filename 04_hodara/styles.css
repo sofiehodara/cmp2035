@@ -1,100 +1,113 @@
-* { background-color: ghostwhite ;
+* { background-color: dimgray ;
 }
 
-p { font-family: Adobe Caslon Pro ;
-    font-size: 15px ;
-    color: dimgray ;
-    padding-left: 25px ;
-    padding-bottom: 10px ;
-    padding-right: 200px ; 
+p { font-family: gill sans ;
+    font-size: 50px ;
+    color: navajowhite;
+    padding-left: 250px ;
+    padding-bottom: 50px ;
+    padding-top: 50px ;
+    padding-right: 250px ; 
+    text-align: center ;
 }
 
 h1
-{font-family: arial ;
-    text-transform: lowercase;
-    font-size: 40px ;
+{font-family: monospace ;
     color: dimgray ;
-    padding-left: 25px ;
+    background-color: paleturquoise ;
+    text-transform: uppercase;
+    font-size: 100px ;
+    padding-top: 50px ;
     padding-bottom: 10px ;
+    text-align: center ;
+    letter-spacing: 10px ;
 }
 
 h2
-{font-family: arial ;
+{font-family: monospace;
     text-transform: uppercase;
-    font-size: 11px ;
-    color: ghostwhite;
-    background-color: dimgray;
-    padding-left: 25px ;
-    padding-bottom: 5px ;
-    padding-top: 5px ;
+    font-size: 30px ;
+    color: dimgray ;
+    background-color: paleturquoise ;
+    padding-bottom: 30px ;
+    padding-top: 30px ;
+    text-align: center ;
+   letter-spacing: 5px ;
 }
 
 h3
-{font-family: arial ;
+{font-family: monospace;
     text-transform: uppercase;
-    font-size: 11px ;
-    color: ghostwhite;
-    background-color: dimgray;
-    padding-left: 25px ;
-    padding-bottom: 5px ;
-    padding-top: 5px ;
+    font-size: 30px ;
+    color: dimgray ;
+    background-color: greenyello w;
+    padding-left: 30px ;
+    padding-bottom: 30px ;
+    padding-top: 30px ;
+    text-align: left ;
 }
 
 /*inline elements*/
 a 
-{font-family: Adobe Caslon Pro ;
-    color: deeppink;
+{   font-family: gill sans ;
+    font-size: 50px ;
+    text-shadow: 2px 2px navajowhite ;
+    color: powderblue ;
     text-transform: lowercase ;
+    
 }
 
 b 
-{color: deeppink ;
-    opacity: 0.8 ; 
-}
-
-i 
-{color: deeppink;
+{text-shadow: 2px 2px orangered ;
     opacity: 0.8 ; 
 }
 
 li 
-{padding-top: 3px ;
-    font-family: adobe caslon pro ;
-    font-size: 15px ; 
-    color: dimgray ;
+{padding-top: 10px ;
+    font-family: monospace;
+    font-size: 30px ; 
+    color: navajowhite ;
+    text-align: center ;
 }
 
 
 /*table and form styles*/
-th {font-family: arial ;
-    text-transform: uppercase;
+th {font-family: monospace;
+    font-size: 30px ;
     text-align: justify ;
-    font-size: 12px ;
-    color: ghostwhite;
-    background-color: dimgray;
-    padding: 5px ;
+    color: dimgray ;
+    background-color: orangered;
+    padding: 10px ;
 }
-td { 
-    padding 7px ;
+td {font-family: gill sans ;
+    font-size: 30px ;
+    padding 5px ;
     text-align: center ;
-    font-size: 15px ;
+    background-image: url(http://s3-media1.fl.yelpcdn.com/bphoto/O_ZMGqAZpDcegz52GtKm_g/o.jpg); 
+    color: navajowhite ;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    background-blend-mode: hard-light;
 }
 
 figcaption  
-{ font-family: arial ;
+{ font-family: monospace;
     text-transform: uppercase ;
-    font-size: 10px ; }
+    font-size: 25px ; }
 
 form 
-{font-family: Adobe Caslon Pro ;
-    color: darkslategrey;
+{font-family: monospace ;
+    font-size: 30px ;
+    color: navajowhite ;
     text-transform: lowercase ;
-    padding-left: 50px ;
+    padding-left: 150px ;
 }
 
 /*other elements*/
 hr 
-{border-color: deeppink ;
+{border-color: navajowhite ; 
+    border-bottom-width: thick ;
+    border-bottom-style: dotted ;
 }
 </style>
 
