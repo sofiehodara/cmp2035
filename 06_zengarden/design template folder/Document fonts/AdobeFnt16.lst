@@ -1,0 +1,200 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AJensonPro-LtIt
+FamilyName:Adobe Jenson Pro
+StyleName:Light Italic
+MenuName:Adobe Jenson Pro Lt
+StyleBits:1
+WeightClass:300
+WidthClass:5
+AngleClass:1
+FullName:Adobe Jenson Pro Light Italic
+WritingScript:Roman
+OutlineFileName:\Adobe Jenson Pro Light Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:181876
+FileModTime:1193865512
+DesignSize:120
+NameArray:0,Mac,18,Adobe Jenson Pro Lt Ital
+NameArray:0,Mac,4,Adobe Jenson Pro Light Italic
+NameArray:0,Win,1,Adobe Jenson Pro Lt
+NameArray:0,Win,16,Adobe Jenson Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AJensonPro-Lt
+FamilyName:Adobe Jenson Pro
+StyleName:Light
+MenuName:Adobe Jenson Pro Lt
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Adobe Jenson Pro Light
+WritingScript:Roman
+OutlineFileName:\Adobe Jenson Pro Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:145948
+FileModTime:1193865506
+DesignSize:120
+NameArray:0,Mac,18,Adobe Jenson Pro Lt
+NameArray:0,Mac,4,Adobe Jenson Pro Light
+NameArray:0,Win,1,Adobe Jenson Pro Lt
+NameArray:0,Win,16,Adobe Jenson Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AJensonPro-It
+FamilyName:Adobe Jenson Pro
+StyleName:Italic
+MenuName:Adobe Jenson Pro
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Adobe Jenson Pro Italic
+WritingScript:Roman
+OutlineFileName:\AJensonPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:184328
+FileModTime:1193865016
+DesignSize:120
+NameArray:0,Mac,18,Adobe Jenson Pro Ital
+NameArray:0,Mac,4,Adobe Jenson Pro Italic
+NameArray:0,Win,1,Adobe Jenson Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ArnoPro-Regular
+FamilyName:Arno Pro
+StyleName:Regular
+MenuName:Arno Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Arno Pro
+WritingScript:Roman
+OutlineFileName:\ArnoPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:404236
+FileModTime:1193865018
+DesignSize:120
+NameArray:0,Mac,4,Arno Pro
+NameArray:0,Win,1,Arno Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChaparralPro-Regular
+FamilyName:Chaparral Pro
+StyleName:Regular
+MenuName:Chaparral Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Chaparral Pro
+WritingScript:Roman
+OutlineFileName:\ChaparralPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:131868
+FileModTime:1193865024
+DesignSize:110
+NameArray:0,Mac,4,Chaparral Pro
+NameArray:0,Win,1,Chaparral Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelveticaLTStd-BoldCondObl
+FamilyName:Helvetica LT Std
+StyleName:Bold Condensed Oblique
+MenuName:Helvetica LT Std Cond
+StyleBits:3
+WeightClass:700
+WidthClass:3
+AngleClass:1
+FullName:Helvetica LT Std Bold Condensed Oblique
+WritingScript:Roman
+OutlineFileName:\HelveticaLTStd-BoldCondObl.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:31312
+FileModTime:1188230908
+DesignSize:120
+NameArray:0,Mac,18,Helvetica LT Std Cond Bold Obl
+NameArray:0,Mac,4,Helvetica LT Std Bold Condensed Oblique
+NameArray:0,Win,1,Helvetica LT Std Cond
+NameArray:0,Win,16,Helvetica LT Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Knockout-HTF28-JuniorFeatherwt
+FamilyName:Knockout HTF28-JuniorFeatherwt
+StyleName:Regular
+MenuName:Knockout HTF28-JuniorFeatherwt
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Knockout-HTF28-JuniorFeatherwt
+WritingScript:Roman
+OutlineFileName:\Knockout-HTF28-JuniorFeatherwt.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:34528
+FileModTime:1216131660
+NameArray:0,Mac,4,Knockout-HTF28-JuniorFeatherwt
+NameArray:0,Win,1,Knockout HTF28-JuniorFeatherwt
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Knockout-HTF48-Featherweight
+FamilyName:Knockout HTF48-Featherweight
+StyleName:Regular
+MenuName:Knockout HTF48-Featherweight
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Knockout-HTF48-Featherweight
+WritingScript:Roman
+OutlineFileName:\Knockout-HTF48-Featherweight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35472
+FileModTime:1216131660
+NameArray:0,Mac,4,Knockout-HTF48-Featherweight
+NameArray:0,Win,1,Knockout HTF48-Featherweight
+%EndFont
+
