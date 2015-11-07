@@ -64,7 +64,7 @@ h1 {
     text-transform: lowercase ;
     color: white;
     width: 940px ;
-    position: fixed ;
+/*    position: fixed ;*/
     top: 0px ;
     z-index: 10; 
     top-margin: 0px;
@@ -111,6 +111,28 @@ h2 {
     line-height: 2.4em ;
     width: 460px ;
 }
+
+
+#zen-summary.summary p:last-child a:link {
+    color: dimgrey;
+    text-decoration: none ;
+}/* unvisited link */
+
+/* visited link */
+#zen-summary.summary p:last-child a:visited {
+    color: dimgrey;
+}
+
+#zen-summary.summary p:last-child a:hover {
+    color: red;
+} /* mouse over link */
+
+#zen-summary.summary p:last-child a:active {
+    color: lightgray;
+} /* selected link */
+
+
+
 /*THE ROAD TO ENLIGHTENMENT*/
 #zen-preamble.preamble {
     float: left ;
@@ -122,7 +144,7 @@ h2 {
 }
 
 #zen-preamble.preamble h3 {
-    float: left ;
+   float: left ;
     width: 460px ;
     font-family: 'header' ;
     text-transform: uppercase ;
@@ -148,7 +170,7 @@ h2 {
 /*    border: red solid 1px; something up with this!!!*/
     width: 940px ;
     margin-bottom: 20px ;
-    margin-top: 20px ;
+    margin-top: 20px ; 
 }
 .explanation h3 {
     float: left ;
@@ -159,7 +181,7 @@ h2 {
     line-height: 1.5em ;
     border-top: 3px black solid;
     margin-bottom: 5px ;  
-    /*right margin weird*/
+/*    right margin weird*/
 }
 
  .explanation p {
@@ -177,24 +199,23 @@ h2 {
 /*PARTICIPATION*/
 #zen-participation.participation {
     float: left ;
-    width: 300px ;
+    width: 620px ;
     margin-right: 10px ;
     -webkit-columns: 140px;
     -moz-columns: 140px;
     columns: 140px;
-    max-width: 300px;
+    max-width: 630px;
     column-gap: 20px;
     margin-top: 40px ;
     margin-bottom: 20px ;
 /*    border: red 1px solid ;*/
 }
 
-
 #zen-participation.participation h3 {
     -webkit-column-span: all;
     -moz-column-span: all;
     column-span: all;
-    width: 300px ;
+    width: 620px ;
     font-family: 'header' ;
     text-transform: uppercase ;
     font-size: 1.5em ;
@@ -214,12 +235,11 @@ h2 {
 }
 /*BENEFITS*/
 div#zen-benefits.benefits {
-    width: 140px ;
+    width: 300px ;
 }
 
 div#zen-benefits.benefits h3 {
-    width: 140px ;
-    float: center ;
+    width: 300px ;
     -webkit-column-span: all;
     -moz-column-span: all;
     column-span: all;
@@ -234,7 +254,12 @@ div#zen-benefits.benefits h3 {
 
 div#zen-benefits.benefits p{
     margin-top: 0px ;
-     font-family: 'Cardo', serif;
+    -webkit-columns: 140px;
+    -moz-columns: 140px;
+    columns: 140px;
+    max-width: 300px;
+    column-gap: 20px;
+    font-family: 'Cardo', serif;
     text-transform: normal ;
     font-size: .75em ;
     line-height: 1.5em ;
@@ -243,19 +268,18 @@ div#zen-benefits.benefits p{
 
 /*REQUIREMENTS*/
 div#zen-requirements.requirements {
+    width: 940px ;
     float: left ;
     height: 500px ;
-    margin-right: 10px ;
-    -webkit-columns: 140px 3;
-    -moz-columns: 140px 3;
-    columns: 140px 3;
-    max-width: 300px;
+    -webkit-columns: 140px 6;
+    -moz-columns: 140px 6;
+    columns: 140px 6;
     column-gap: 20px;
     margin-bottom: 20px ;
 }
 
 div#zen-requirements.requirements h3 {
-    width: 460px ;
+    width: 940px ;
     -webkit-column-span: all;
     -moz-column-span: all;
     column-span: all;
@@ -278,8 +302,9 @@ div#zen-requirements.requirements p{
 }
 
 div#zen-requirements.requirements p:last-child{
-    width: 460px ;
-    margin-top: 10px ;
+    width: 940 ;
+    margin-right: 10px ;
+    margin-top: 20px ;
     font-family: 'Cardo', serif;
     font-style: italic ;
     font-size: 1.25em ;
@@ -287,6 +312,7 @@ div#zen-requirements.requirements p:last-child{
    -webkit-column-span: all;
     -moz-column-span: all;
     column-span: all;
+    margin-bottom: 0px ;
 }
 
 
@@ -306,6 +332,27 @@ div#zen-requirements.requirements p:last-child a:hover {
 div#zen-requirements.requirements p:last-child a:active {
     color: lightgrey ; /* selected link */
 }  
+
+/*SELECT A DESIGN - make cool list*/
+div#design-selection.design-selection {
+    width: 780px ;
+    margin-right: 10px ;
+    float: left ;
+    }
+
+div#design-selection.design-selection h3 {
+    float: left ;
+    font-family: 'header' ;
+    font-style: normal ;
+    letter-spacing: .05em ;
+    text-transform: uppercase ;
+    color: white ;
+    background-color: black ;
+    text-align: center ;
+    text-size: 1.5em ;
+    line-height: 2.4em ;
+    width: 780px ;
+}
 
 
 div#zen-resources.zen-resources {
@@ -329,14 +376,6 @@ div#zen-resources.zen-resources h3{
     font-size: .75em ;
     line-height: 1.5em ;
     letter-spacing: .02em ;   
-}
-    
-    
-/*
-    margin-top: 0px ;
-    margin-bottom: 5px ;
-    padding-left: 5px ;
-*/
 }
 
    /*  http://www.w3schools.com/css/css3_multiple_columns.asp */   
