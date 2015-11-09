@@ -5,51 +5,48 @@
 
 @font-face {
     font-family: 'header';
-    src: url("03-fonts/Knockout-HTF28-JuniorFeatherwt.otf");
+    src: url("fonts/Knockout-HTF28-JuniorFeatherwt.otf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'body';
-    src: url("03-fonts/AdobeJensonProLight.otf");
+    src: url("fonts/AdobeJensonProLight.otf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'bodyitalic';
-    src: url("03-fonts/AdobeJensonProLightItalic.otf");
+    src: url("fonts/AdobeJensonProLightItalic.otf");
     font-weight: normal;
 }
 
-/* unvisited link */
+
 a:link {
     color: dimgray;
-}
+} /* unvisited link */
 
-/* visited link */
+
 a:visited {
     color: dimgrey;
-}
+} /* visited link */
 
-/* mouse over link */
+
 a:hover {
     color: lightgrey;
-}
+} /* mouse over link */
 
-/* selected link */
+
 a:active {
     color: red;
-}  
+}  /* selected link */
 
 div.page-wrapper {
-    position: absolute center ;
-    margin-left: auto ;
-    margin-right: auto ;
+    position:absolute ;
     border: 5px black double;
     max-width: 980px ;
     min-width: 980px ;
     padding: 10px ;
-    /* Not centered?? */
 }
 
 /*css zen garden*/
@@ -400,7 +397,7 @@ div#design-selection.design-selection {
     width: 780px ;
     margin-left: 10px ;
     margin-right: 10px ;
-    border: solid 1px red ;
+/*    border: solid 1px red ;*/
     float: left ;
     }
 
@@ -429,7 +426,7 @@ div#design-selection.design-selection h3 {
 
 .design-selection li {
     text-align: justify ;
-        border: 1px red solid;
+/*        border: 1px red solid;*/
 }
 
 .design-selection li a.design-name{
@@ -447,8 +444,7 @@ div#design-selection.design-selection h3 {
     width: 10px;
     white-space: nowrap;
     color: dimgray;
-    content:  "........................................................................................................." ;
-    align-content: flex-end ;
+    content:  "........................................................................................................." ;;
     
 }
 
@@ -482,15 +478,10 @@ a.designer-name {
 
 /*DESIGN ARCHIVES*/
 div#design-archives.design-archives {
-/*    border: blue 1px solid ;*/
     width: 160px ;
-/*    margin-left: 10px ; */
-    margin-right: 10px ;
-<<<<<<< Updated upstream
     float: right ;
     clear: none ;
-=======
->>>>>>> Stashed changes
+    padding-right: 10px ;
 }
 
 
@@ -501,13 +492,10 @@ div#design-archives.design-archives h3 {
     line-height: 1.75em ;
     letter-spacing: .05em ;
     border-top: 2px black solid; 
-    padding-left: 10px ;
 }
 
 div#design-archives.design-archives a:link {
     text-decoration: none ;
-    text-align: left ;
-    text-align: right ;
     font-family: 'header',sans-serif;
     font-size: 1em;
     line-height: 1.1em;
@@ -515,8 +503,8 @@ div#design-archives.design-archives a:link {
 }
 
 div#design-archives.design-archives ul {
-     list-style: none ;
-     padding-left: 10px ;
+    list-style: none ;
+    padding: 0px ;
 }
 
 
@@ -527,52 +515,30 @@ div#design-archives.design-archives span.indicator {
 /*RESOURCES*/
 
 div#zen-resources.zen-resources {
-<<<<<<< Updated upstream
+   margin: 5px ;
 /*    border: 1px solid blue ;*/
-=======
->>>>>>> Stashed changes
     width: 160px ;
-    margin-left: 10px ;
-    margin-right: 10px ;
-<<<<<<< Updated upstream
-    float: right ;
-=======
-        border: 1px solid blue ;
->>>>>>> Stashed changes
+    float: left ;
+    clear: none ;
 }
 
 div#zen-resources.zen-resources h3{
-/*    border: 1px green solid ;*/
     font-family: 'header' ;
     text-transform: uppercase ;
+    border-top: 2px black solid; 
+    line-height: 1.75em ;
     font-size: 1em ;
-/*    line-height: 1.75em ;*/
     letter-spacing: .05em ;
-    border-top: 2px black solid;
-/*    margin-left: 10px ;*/
 }
     
-/*
-#zen-resources.zen-resources p {
-
-    margin-top: 0px ;
-    font-family: 'Cardo', serif;
-    text-transform: normal ;
-    font-size: .75em ;
-    line-height: 1.5em ;
-    letter-spacing: .02em ;   
-}
-*/
 #zen-resources.zen-resources ul {
-    padding-left: 10px ;
     list-style: none ;
     list-style-position: inside ;
+    padding: 0px ;
 }
 
 #zen-resources.zen-resources a:link {
- text-decoration: none ;
-    text-align: left ;
-    text-align: right ;
+    text-decoration: none ;
     font-family: 'header',sans-serif;
     font-size: 1em;
     line-height: 1.1em;
