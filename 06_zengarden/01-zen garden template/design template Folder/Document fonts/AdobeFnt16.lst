@@ -129,32 +129,6 @@ NameArray:0,Win,1,Chaparral Pro
 %BeginFont
 Handler:DirectoryHandler
 FontType:Type1
-FontName:HelveticaLTStd-BoldCondObl
-FamilyName:Helvetica LT Std
-StyleName:Bold Condensed Oblique
-MenuName:Helvetica LT Std Cond
-StyleBits:3
-WeightClass:700
-WidthClass:3
-AngleClass:1
-FullName:Helvetica LT Std Bold Condensed Oblique
-WritingScript:Roman
-OutlineFileName:\HelveticaLTStd-BoldCondObl.otf
-DataFormat:sfntData
-UsesStandardEncoding:yes
-isCFF:yes
-FileLength:31312
-FileModTime:1188230908
-DesignSize:120
-NameArray:0,Mac,18,Helvetica LT Std Cond Bold Obl
-NameArray:0,Mac,4,Helvetica LT Std Bold Condensed Oblique
-NameArray:0,Win,1,Helvetica LT Std Cond
-NameArray:0,Win,16,Helvetica LT Std
-%EndFont
-
-%BeginFont
-Handler:DirectoryHandler
-FontType:Type1
 FontName:Knockout-HTF28-JuniorFeatherwt
 FamilyName:Knockout HTF28-JuniorFeatherwt
 StyleName:Regular

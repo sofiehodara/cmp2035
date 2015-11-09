@@ -1,10 +1,10 @@
 ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
 
-PUBLICATION NAME: Untitled-1.indd
+PUBLICATION NAME: design template.indd
 
-PACKAGE DATE: 11/4/15 8:33 PM
-Creation Date: 11/4/15
-Modification Date: 11/4/15
+PACKAGE DATE: 11/8/15 10:04 PM
+Creation Date: 11/8/15
+Modification Date: 11/8/15
 
 CONTACT INFORMATION
 
@@ -31,7 +31,7 @@ External Plug-ins 0
 Non Opaque Objects :None
 
 FONTS
-8 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+7 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
 
 Fonts Packaged
 - Name: AJensonPro-It; Type: OpenType Type 1, Status: OK
@@ -39,7 +39,6 @@ Fonts Packaged
 - Name: AJensonPro-LtIt; Type: OpenType Type 1, Status: OK
 - Name: ArnoPro-Regular; Type: OpenType Type 1, Status: OK
 - Name: ChaparralPro-Regular; Type: OpenType Type 1, Status: OK
-- Name: HelveticaLTStd-BoldCondObl; Type: OpenType Type 1, Status: OK
 - Name: Knockout-HTF28-JuniorFeatherwt; Type: OpenType Type 1, Status: OK
 - Name: Knockout-HTF48-Featherweight; Type: OpenType Type 1, Status: OK
 
@@ -86,14 +85,13 @@ Flip Mode: Off
 
 FILE PACKAGE LIST
 
-1. Untitled-1.indd; type: Adobe InDesign publication; size: 3708K
-2. Untitled-1.idml; type: InDesign Markup Document; size: 1069K
-3. Untitled-1.pdf; type: Adobe Acrobat Document; size: 1900K
+1. design template.indd; type: Adobe InDesign publication; size: 1804K
+2. design template.idml; type: InDesign Markup Document; size: 65K
+3. design template.pdf; type: Adobe Acrobat Document; size: 1896K
 4. AJensonPro-It.otf; type: Font file; size: 180K
 5. Adobe Jenson Pro Light.otf; type: Font file; size: 142K
 6. Adobe Jenson Pro Light Italic.otf; type: Font file; size: 177K
 7. ArnoPro-Regular.otf; type: Font file; size: 394K
 8. ChaparralPro-Regular.otf; type: Font file; size: 128K
-9. HelveticaLTStd-BoldCondObl.otf; type: Font file; size: 30K
-10. Knockout-HTF28-JuniorFeatherwt.otf; type: Font file; size: 33K
-11. Knockout-HTF48-Featherweight.otf; type: Font file; size: 34K
+9. Knockout-HTF28-JuniorFeatherwt.otf; type: Font file; size: 33K
+10. Knockout-HTF48-Featherweight.otf; type: Font file; size: 34K
