@@ -456,9 +456,10 @@ div#design-selection.design-selection h3 {
 div#design-archives.design-archives {
     border: blue 1px solid ;
     width: 160px ;
-    margin-left: 10px ;
+/*    margin-left: 10px ; */
     margin-right: 10px ;
     float: right ;
+    clear: none ;
 }
 
 
@@ -499,6 +500,7 @@ div#zen-resources.zen-resources {
     border: 1px solid blue ;
     width: 160px ;
     margin-right: 10px ;
+    float: right ;
 }
 
 div#zen-resources.zen-resources h3{
