@@ -360,9 +360,10 @@ div#zen-requirements.requirements p:last-child a:active {
 div#design-archives.design-archives {
     clear: left ;
 }
-/*FOOTER LINKS */
+/*FOOTER  */
 footer {
     float: left ;
+    position: absolute bottom;
     width: 960px ;
     margin-left: 10px ;
     font-family: 'header' ;
@@ -374,7 +375,7 @@ footer {
 /*    background-image: url("images/banner.png");*/
      text-align: center ;
     text-size: 1.5em ;
-    line-height: 2.4em ;
+    line-height: 3em ;
 }
 
 footer a:link {
@@ -382,7 +383,7 @@ footer a:link {
 }/* unvisited link */
 
 footer a:visited {
-    color: dimgrey;
+    color: lightgrey;
 }/* visited link */
 
 footer a:hover {
@@ -390,7 +391,7 @@ footer a:hover {
 } /* mouse over link */
 
 footer a:active {
-    color: lightgray;
+    color: whitesmoke;
 } /* selected link */
 
 
@@ -404,7 +405,7 @@ div#design-selection.design-selection {
     }
 
 div#design-selection.design-selection h3 {
-    font-family: 'header', sans-serif;
+    font-family: 'header';
     font-style: normal ;
     letter-spacing: .05em ;
     text-transform: uppercase ;
@@ -426,31 +427,58 @@ div#design-selection.design-selection h3 {
 }
 */
 
+.design-selection li {
+    text-align: justify ;
+        border: 1px red solid;
+}
+
 .design-selection li a.design-name{
     font-family: 'Cardo', serif;
     text-decoration: none;
-    color: #3f3d3a;
-/*    border: 1px red solid;*/
+    color: dimgray;
+
 }
 
 .sidebar a:hover, sidebar a:focus {
-  color: #e5452c;
+  color: red;
 }
 
 .design-name:after {
-    width: 0;
+    width: 10px;
     white-space: nowrap;
-    color: #3f3d3a;
-    content: "...................................................................................................................................."
+    color: dimgray;
+    content:  "........................................................................................................." ;
+    align-content: flex-end ;
+    
 }
 
-.designer-name {
+
+a.designer-name {
     width: 780px ;
-    text-align: right ;
     font-family: 'header',sans-serif;
     font-size: 1em;
     text-transform: uppercase;
+    text-decoration: none ;
+    text-align: justify;
 }
+
+.designer-name a:link {
+    color: dimgray;
+
+    
+}/* unvisited link */
+
+.designer-name a:visited {
+    color: lightgrey;
+}/* visited link */
+
+.designer-name a:hover {
+    color: red;
+} /* mouse over link */
+
+.designer-name a:active {
+    color: dimgrey;
+} /* selected link */
 
 /*DESIGN ARCHIVES*/
 div#design-archives.design-archives {
@@ -458,8 +486,11 @@ div#design-archives.design-archives {
     width: 160px ;
 /*    margin-left: 10px ; */
     margin-right: 10px ;
+<<<<<<< Updated upstream
     float: right ;
     clear: none ;
+=======
+>>>>>>> Stashed changes
 }
 
 
@@ -470,8 +501,8 @@ div#design-archives.design-archives h3 {
     line-height: 1.75em ;
     letter-spacing: .05em ;
     border-top: 2px black solid; 
+    padding-left: 10px ;
 }
-
 
 div#design-archives.design-archives a:link {
     text-decoration: none ;
@@ -484,23 +515,30 @@ div#design-archives.design-archives a:link {
 }
 
 div#design-archives.design-archives ul {
-        list-style: none ;
-    list-style-position: outside ;
+     list-style: none ;
+     padding-left: 10px ;
 }
 
 
 div#design-archives.design-archives span.indicator {
     color: red ;
-    text-align: left ;
 }
 
 /*RESOURCES*/
 
 div#zen-resources.zen-resources {
+<<<<<<< Updated upstream
 /*    border: 1px solid blue ;*/
+=======
+>>>>>>> Stashed changes
     width: 160px ;
+    margin-left: 10px ;
     margin-right: 10px ;
+<<<<<<< Updated upstream
     float: right ;
+=======
+        border: 1px solid blue ;
+>>>>>>> Stashed changes
 }
 
 div#zen-resources.zen-resources h3{
@@ -514,7 +552,9 @@ div#zen-resources.zen-resources h3{
 /*    margin-left: 10px ;*/
 }
     
+/*
 #zen-resources.zen-resources p {
+
     margin-top: 0px ;
     font-family: 'Cardo', serif;
     text-transform: normal ;
@@ -522,10 +562,11 @@ div#zen-resources.zen-resources h3{
     line-height: 1.5em ;
     letter-spacing: .02em ;   
 }
+*/
 #zen-resources.zen-resources ul {
+    padding-left: 10px ;
     list-style: none ;
-    list-style-position: outside ;
-    content-align: left ;
+    list-style-position: inside ;
 }
 
 #zen-resources.zen-resources a:link {
@@ -542,157 +583,3 @@ div#zen-resources.zen-resources h3{
 
    /*  http://www.w3schools.com/css/css3_multiple_columns.asp */   
 
-
-/*
-body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
-	padding: 0;
-	}
-
-
- specific divs 
-.page-wrapper { 
-	background: url(zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-	position: relative;
-	}
-
-.intro { 
-	min-width: 470px;
-	width: 100%;
-	}
-
-header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header {
-	padding-top: 20px;
-	height: 87px;
-}
-
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
-	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia; 
-	text-align: center;
-	}
-
-.preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
-.supporting {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-	}
-
-footer { 
-	text-align: center; 
-	}
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
-
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-.sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-.sidebar h3.select { 
-	background: transparent url(h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.archives { 
-	background: transparent url(h5.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.resources { 
-	background: transparent url(h6.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-
-
-.sidebar ul {
-	margin: 0;
-	padding: 0;
-	}
-.sidebar li {
-	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
-	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
-	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: #B3AE94;
-	}
-
-
-.extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	}*/
