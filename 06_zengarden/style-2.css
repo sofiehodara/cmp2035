@@ -5,19 +5,19 @@
 
 @font-face {
     font-family: 'header';
-    src: url("fonts/Knockout-HTF28-JuniorFeatherwt.otf");
+    src: url("03-fonts/Knockout-HTF28-JuniorFeatherwt.otf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'body';
-    src: url("fonts/AdobeJensonProLight.otf");
+    src: url("03-fonts/AdobeJensonProLight.otf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'bodyitalic';
-    src: url("fonts/AdobeJensonProLightItalic.otf");
+    src: url("03-fonts/AdobeJensonProLightItalic.otf");
     font-weight: normal;
 }
 
